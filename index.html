@@ -19,7 +19,7 @@
     var promedio=parseInt($("#promedio").val());
     $.ajax({
      type:"POST",
-     url:"guardardatos.php",
+     url:"http://laura1910933.260mb.net/guardardatos.php",
      data:"nombre="+nom+"&edad="+edad+"&promedio="+promedio,
      success:registro
      });
@@ -32,7 +32,7 @@
    btnConsulta.click(function cons(){
    $.ajax({
     type:"POST",
-    url:"consulta.php",
+    url:"http://laura1910933.260mb.net/consulta.php",
     data:"",
     success:consultaDatos
     });
